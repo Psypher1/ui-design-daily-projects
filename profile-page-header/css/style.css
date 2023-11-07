@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import "https://unpkg.com/open-props";
+
+:root {
+	--clr-dark: 218 46% 16%;
+	--clr-light: 60 3% 88%;
+	--clr-orange: 22 88% 58%;
+	--clr-brown: 17 27% 38%;
+	--clr-brown2: 14 23% 60%;
+	--clr-gray: 245 5% 51%;
+
+	--fz-base: 1.125rem;
+	--fz-md: 1.5rem;
+
+	--fw-regular: 400;
+	--fw-semi: 600;
+	--fw-bold: 700;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+button {
+	font: inherit;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+body {
+	/* font-size: var(--fz-base); */
+	font-family: "Poppins", sans-serif;
+	background-color: white;
+}
+
+main {
+	display: grid;
+	min-height: 100vh;
+	min-height: 100dvh;
+	place-items: center;
+}
+.profile {
+	width: 40rem;
+	background-color: whitesmoke;
+	border: var(--border-size-1) solid hsl(var(--clr-dark) / 0.95);
+	padding: var(--size-fluid-3);
+	border-radius: var(--radius-3);
+
+	/* flex */
+	justify-content: space-between;
+	gap: var(--size-7);
+	align-items: flex-end;
+
+	&:profile-name {
+		text-transform: uppercase;
+	}
+}
+
+.profile-name {
+	font-size: var(--fz-md);
+}
+
+.profile-desc {
+	max-width: 30ch;
+}
+
+.social-icons-wrapper {
+	gap: var(--size-3);
+}
+
+.social-icons-wrapper img {
+	background-color: hsl(var(--clr-light));
+}
+
+.profile-stats {
+	flex-direction: column;
+	justify-content: space-between;
+	gap: var(--size-8);
+
+	align-items: flex-end;
+}
+
+.profile-org-info {
+	align-items: center;
+	justify-content: space-between;
+}
+.bar {
+	border: var(--border-size-3) solid red;
+	width: 15rem;
+	margin-top: var(--size-2);
+}
+
+.follow > p > span {
+	font-weight: var(--fw-bold);
+}
+
+.follow-button {
+	background-color: hsl(var(--clr-dark));
+	color: hsl(var(--clr-light));
+	font-weight: var(--fw-semi);
+	padding-inline: var(--size-6);
+	padding-block: var(--size-2);
+
+	border-radius: var(--radius-2);
+
+	&:hover {
+		background-color: hsl(var(--clr-dark) / 0.95);
+	}
+}
+/* UTILITIES */
+.flex {
+	display: flex;
+}
+
+.grid {
+	display: grid;
+}
