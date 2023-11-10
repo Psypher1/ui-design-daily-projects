@@ -8,12 +8,13 @@
 	</head>
 	<body>
 		<main>
-			<!-- <div class="background-gradient"></div> -->
+			<div class="background-gradient"></div>
 
-			<section class="store-card flex-md" aria-label="store-card">
+			<section class="store-card flex-lg" aria-label="store-card">
 				<h2 class="card-title">Closest stores</h2>
 				<div class="card-location flex">
-					<input type="search" placeholder="Find me" />
+					<small>Postal code</small>
+					<input type="text" placeholder="5055" />
 					<p class="flex">
 						<img
 							src="./images/location-pin.svg"
@@ -26,10 +27,27 @@
 					</p>
 				</div>
 
-				<div class="card-address">
-					<h3>POINT Bergen</h3>
+				<div class="card-address reduce-margin">
+					<div class="flex card-address-title">
+						<h3>POINT Bergen</h3>
+						<span class="badge badge-closed">Closed</span>
+					</div>
 					<p>Strandagaten 55-57, 6007 Bergen</p>
-					<p>9:00 - 19:00</p>
+					<p class="flex time">
+						<img src="./images/clock.svg" width="16" height="16" alt="" />
+						9:00 - 19:00
+					</p>
+				</div>
+				<div class="card-address">
+					<div class="flex card-address-title">
+						<h3>POIVestkanten</h3>
+						<span class="badge badge-open">Open</span>
+					</div>
+					<p>Strandagaten 55-57, 6007 Bergen</p>
+					<p class="time flex">
+						<img src="./images/clock.svg" width="18" height="18" alt="" /> 9:00
+						- 21:00
+					</p>
 				</div>
 
 				<button class="card-button">View all</button>

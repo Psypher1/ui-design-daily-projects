@@ -8,6 +8,6 @@ What I used:
 
 ### My Result
 
-![Alt text](./images/profile-header.png "a title")
+![Alt text](./images/store-list.png "a title")
 
-[Link to challenge](https://uidesigndaily.com/posts/figma-profile-page-header-card-day-1580)
+[Link to challenge](https://uidesigndaily.com/posts/figma-stores-list-card-dark-mode-day-1563)
