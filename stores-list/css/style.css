@@ -113,7 +113,7 @@ main {
 	width: 27rem;
 	height: 22rem;
 	position: absolute;
-	left: 30%;
+	left: 31%;
 	top: 5%;
 	z-index: -1;
 }
@@ -153,7 +153,7 @@ main {
 
 .card-location {
 	align-items: center;
-	gap: var(--size-5);
+	gap: var(--size-3);
 	margin-top: var(--size-5);
 	position: relative;
 }
