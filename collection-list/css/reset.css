@@ -1,0 +1,62 @@
+/* RESET */
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font: inherit;
+}
+
+/* h1,
+h2,
+h3,
+h4 {
+	line-height: 1.1;
+} */
+
+img,
+svg,
+picture {
+	display: block;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	/* color: inherit; */
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+	list-style: none;
+}
+
+button {
+	font: inherit;
+	color: inherit;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+/* Set core root defaults */
+html {
+	scroll-behavior: smooth;
+}
