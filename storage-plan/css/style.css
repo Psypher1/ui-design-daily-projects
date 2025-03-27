@@ -1,0 +1,50 @@
+@import "https://unpkg.com/open-props";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+	--ff-sans: "Poppins", sans-serif;
+
+	--fw-400: 400;
+	--fw-500: 500;
+	--fw-600: 600;
+	--fw-700: 700;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: var(--ff-sans);
+	font-weight: var(--fw-400);
+
+	height: 100%;
+}
+main {
+	border: 2px solid red;
+}
+.container {
+	border: 2px solid magenta;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	/* height: 100vh; */
+
+	gap: var(--size-3);
+}
+
+.left-col {
+	background-color: red;
+	padding: var(--size-3);
+}
+
+.col-inner {
+	background-color: #ccc;
+	padding: var(--size-2);
+}
+
+.right-col {
+	background-color: limegreen;
+	padding: var(--size-3);
+}
